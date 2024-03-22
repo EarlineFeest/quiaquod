@@ -1,0 +1,42 @@
+{
+  "name": "quiaquod",
+  "version": "1.0.0",
+  "description": "Provider integration with Nuxt.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EarlineFeest/quiaquod.git"
+  },
+  "license": "MIT",
+  "main": "lib/module.js",
+  "types": "types/index.d.ts",
+  "files": [
+    "lib",
+    "types/*.d.ts"
+  ],
+  "scripts": {
+    "lint-fix": "eslint 'lib/**/*.js' --quiet --fix",
+    "release": "git push --follow-tags && npm publish"
+  },
+  "dependencies": {
+    "web3": "^1.5.2",
+    "web3-utils": "^1.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.12.0",
+    "@babel/preset-env": "7.12.0",
+    "@nuxtjs/eslint-config": "4.0.0",
+    "babel-eslint": "9.0.0",
+    "eslint": "7.12.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.1.2"
+  },
+  "directories": {
+    "example": "example",
+    "lib": "lib"
+  },
+  "author": "JedidiahJakubowski",
+  "bugs": {
+    "url": "https://github.com/EarlineFeest/quiaquod.git/issues"
+  }
+}
